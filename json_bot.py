@@ -1,7 +1,7 @@
 from telebot import TeleBot, types
 import json
 
-bot = TeleBot(token='5628817109:AAGQrlMZg2OX-vAp2WymAoJX9HMRbn3vwlY', parse_mode='html')
+bot = TeleBot(token='ВСТАВИТЬ СВОЙ ТОКЕН', parse_mode='html')
 
 @bot.message_handler(commands=['start'])
 def start_command_handler(message: types.Message):
